@@ -1,0 +1,47 @@
+header{
+    background-color: rgb(65, 62, 62);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    display: grid;
+    grid-template-areas: "header header header header"
+     "aside  main main main";
+     
+     
+}
+header{
+    grid-area: header;
+    
+}
+aside{
+    grid-area: aside;
+    display: flex;
+    flex-direction: column;
+   color: black;
+   background-color: rgb(255, 255, 255);
+   
+}
+main{
+    grid-area: main;
+    background-color: rgb(255, 255, 255);
+}
+a {
+    color: black;
+    text-decoration: none;
+    padding-left: 5px; 
+}
+article{
+    padding: 3px;
+    background-color: rgb(255, 255, 255);
+    border: 5px;
+    border-color: black;
+}
+#hastGrey{
+    color: grey;
+}
+#megusta {
+    color: rgb(56, 138, 170);
+}
